@@ -27,7 +27,7 @@
 
 ## การติดตั้ง
 
-1. ดาวน์โหลดไฟล์ `SlowLivingwithPrincess-Thai-Mod-v0.2.0.zip` จากหน้า Releases
+1. ดาวน์โหลดไฟล์ `SlowLivingwithPrincess-Thai-Mod-v0.3.0.zip` จากหน้า Releases
 2. ใน Steam คลิกขวาที่เกม แล้วเลือก **จัดการ (Manage) → เปิดหาไฟล์ภายในเครื่อง (Browse local files)**
 3. ปิดเกม แล้วแตกไฟล์ทุกอย่างใน ZIP ลงในโฟลเดอร์ที่มี `Game.exe`
 4. เมื่อ Windows ถาม ให้เลือกแทนที่ไฟล์ `index.html`

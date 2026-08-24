@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "modVersion": "0.2.0",
+  "modVersion": "0.3.0",
   "generatedAt": "2026-08-20T08:31:28.958Z",
   "game": {
     "title": "Slow living with Princess",
@@ -13,7 +13,11 @@
     "localizedText": 3854,
     "fallbackText": 330,
     "achievements": 26,
-    "errorScreen": 2
+    "errorScreen": 2,
+    "inlineDialogue": 106,
+    "nameBoxes": 45,
+    "inlineMapDialogue": 2,
+    "extraInlineText": 28
   },
   "terminology": {
     "Rit": "ริท",
@@ -3085,7 +3089,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Girl\\C[0]\\{",
+                "\\>　　\\}\\C[5]เด็กสาว\\C[0]\\{",
                 "ฮึก... ฮือ..."
               ]
             },
@@ -6310,7 +6314,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Ruti\\C[0]\\{",
+                "\\>　　\\}\\C[5]รูตี้\\C[0]\\{",
                 "ฉันชอบซาวน่า"
               ]
             },
@@ -6324,7 +6328,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Yarandrala\\C[0]\\{",
+                "\\>　　\\}\\C[5]ยารันดราลา\\C[0]\\{",
                 "อา... สบายจังเลย"
               ]
             },
@@ -8765,7 +8769,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]\\I[647]Stormy\\C[0]\\{",
+                "\\>　　\\}\\C[5]\\I[647]สตอร์มี่\\C[0]\\{",
                 "ใครจะคิดล่ะว่ารีทจะมาทำงาน",
                 "ที่ร้านของนาย"
               ]
@@ -8794,7 +8798,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]\\I[646]Gonz\\C[0]\\{",
+                "\\>　　\\}\\C[5]\\I[646]กอนซ์\\C[0]\\{",
                 "ถ้าอย่างนั้นก็น่าจะบอกกันตั้งแต่แรกสิ",
                 "ฉันสร้างบ้านให้ นึกว่าอยู่คนเดียวไปตลอดซะอีก!"
               ]
@@ -8809,7 +8813,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]\\I[648]Newman\\C[0]\\{",
+                "\\>　　\\}\\C[5]\\I[648]นิวแมน\\C[0]\\{",
                 "ฉันก็ไม่รู้เหมือนกัน เรดนี่เป็นคนที่น่าสนใจจริง ๆ"
               ]
             },
@@ -8837,7 +8841,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]\\I[647]Stormy\\C[0]\\{",
+                "\\>　　\\}\\C[5]\\I[647]สตอร์มี่\\C[0]\\{",
                 "ฉันไม่อยากสอดรู้เรื่องอดีตหรอกนะ...",
                 "แต่ซื้อเตียงคู่น่าจะดีกว่าไหม?"
               ]
@@ -8867,7 +8871,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]\\I[646]Gonz\\C[0]\\{",
+                "\\>　　\\}\\C[5]\\I[646]กอนซ์\\C[0]\\{",
                 "ถัวแต่กังวลเรื่องแบบนั้น",
                 "เดี๋ยวก็พลาดโอกาสดี ๆ หรอก"
               ]
@@ -8882,7 +8886,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]\\I[648]Newman\\C[0]\\{",
+                "\\>　　\\}\\C[5]\\I[648]นิวแมน\\C[0]\\{",
                 "ชาวโซลตันอาจจะขี้เกียจกัน",
                 "แต่เรื่องความรักไม่จำเป็นต้องขี้เกียจหรอกนะ"
               ]
@@ -23266,7 +23270,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Customer A\\C[0]\\{",
+                "\\>　　\\}\\C[5]ลูกค้า A\\C[0]\\{",
                 "เอ่อ พวกเราเห็นใบปลิวเลยมาที่นี่ค่ะ..."
               ]
             },
@@ -23280,7 +23284,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Customer B\\C[0]\\{",
+                "\\>　　\\}\\C[5]ลูกค้า B\\C[0]\\{",
                 "เพื่อนแนะนำร้านนี้มาค่ะ..."
               ]
             },
@@ -23309,7 +23313,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]Customer C\\C[0]\\{",
+                "\\>　　\\}\\C[5]ลูกค้า C\\C[0]\\{",
                 "ได้ยินว่าที่นี่มีร้านสุดยอดอยู่!",
                 "เลยอยากมาดูให้เห็นกับตาค่ะ!"
               ]
@@ -26244,7 +26248,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]All\\C[0]\\{",
+                "\\>　　\\}\\C[5]ทุกคน\\C[0]\\{",
                 "ยินดีต้อนรับสู่โซลตัน!!"
               ]
             },
@@ -29707,7 +29711,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Salesman\\C[0]\\{",
+                "\\>　　\\}\\C[5]พ่อค้า\\C[0]\\{",
                 "...เดี๋ยวนะ นายคือเรด คนขายยาไม่ใช่เหรอ?"
               ]
             },
@@ -32770,7 +32774,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Customer A\\C[0]\\{",
+                "\\>　　\\}\\C[5]ลูกค้า A\\C[0]\\{",
                 "มีสมุนไพรขายไหมครับ?"
               ]
             },
@@ -32798,7 +32802,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Customer A\\C[0]\\{",
+                "\\>　　\\}\\C[5]ลูกค้า A\\C[0]\\{",
                 "ถ้าเป็นสมุนไพร ราคาเท่าไหร่หรือครับ?"
               ]
             },
@@ -32826,7 +32830,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Customer A\\C[0]\\{",
+                "\\>　　\\}\\C[5]ลูกค้า A\\C[0]\\{",
                 "ขายถูกขนาดนั้นเลยเหรอครับ?!"
               ]
             },
@@ -32854,7 +32858,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]Customer B\\C[0]\\{",
+                "\\>　　\\}\\C[5]ลูกค้า B\\C[0]\\{",
                 "ช่วงนี้ราคาสมุนไพรในโซลตัน",
                 "พุ่งสูงลิ่วเลยครับ... มีเท่าไหร่ผมขอซื้อหมด!"
               ]
@@ -33332,7 +33336,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Customer A\\C[0]\\{",
+                "\\>　　\\}\\C[5]ลูกค้า A\\C[0]\\{",
                 "ไม่รู้เลยว่าที่นี่มีร้านขายยาด้วย..."
               ]
             },
@@ -33475,7 +33479,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Customer B\\C[0]\\{",
+                "\\>　　\\}\\C[5]ลูกค้า B\\C[0]\\{",
                 "ลองถามดูไหม เผื่อพวกเขาจะมี"
               ]
             },
@@ -33504,7 +33508,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Customer A\\C[0]\\{",
+                "\\>　　\\}\\C[5]ลูกค้า A\\C[0]\\{",
                 "ขอโทษนะ ที่นี่พอจะมี…?"
               ]
             },
@@ -59601,7 +59605,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Girl\\C[0]\\{",
+                "\\>　　\\}\\C[5]เด็กสาว\\C[0]\\{",
                 "ฮึก……"
               ]
             },
@@ -59657,7 +59661,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Girl\\C[0]\\{",
+                "\\>　　\\}\\C[5]เด็กสาว\\C[0]\\{",
                 "แมวดำ แมวขาว แล้วก็แมวสามสีค่ะ..."
               ]
             },
@@ -73213,7 +73217,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]Ares\\C[0]\\{",
+                "\\>　　\\}\\C[5]อาเรส\\C[0]\\{",
                 "สหายที่แท้จริง คือผู้ที่ทำหน้าที่ของตน",
                 "และต่อสู้เคียงข้างพวกพ้อง"
               ]
@@ -73242,7 +73246,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]Ares\\C[0]\\{",
+                "\\>　　\\}\\C[5]อาเรส\\C[0]\\{",
                 "นายเองก็รู้อยู่แก่ใจไม่ใช่หรือ?",
                 "ว่านายเป็นได้แค่ตัวถ่วงของพวกเรา"
               ]
@@ -73257,7 +73261,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]Ares\\C[0]\\{",
+                "\\>　　\\}\\C[5]อาเรส\\C[0]\\{",
                 "ตอนสู้กับเดสมอนด์แห่งปฐพี",
                 "หนึ่งในสี่ขุนพล นายยังตามพวกเราไม่ทันเลย"
               ]
@@ -73446,7 +73450,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]Ares\\C[0]\\{",
+                "\\>　　\\}\\C[5]อาเรส\\C[0]\\{",
                 "ผู้กล้าไม่มีวันทอดทิ้งพวกพ้อง",
                 "เพราะงั้น รูตี้ไม่มีวันบอกให้คุณจากไป"
               ]
@@ -73461,7 +73465,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]Ares\\C[0]\\{",
+                "\\>　　\\}\\C[5]อาเรส\\C[0]\\{",
                 "แต่ถ้าคุณเป็นพวกพ้องของผู้กล้าจริง",
                 "ก็จงจากไปเองโดยไม่ต้องพูดอะไร"
               ]
@@ -73505,7 +73509,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]Ares\\C[0]\\{",
+                "\\>　　\\}\\C[5]อาเรส\\C[0]\\{",
                 "โลกกำลังเผชิญวิกฤตถึงขั้นนี้",
                 "คุณยังจะห่วงเกียรติยศของกองอัศวินอีกหรือคะ?!"
               ]
@@ -73593,7 +73597,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Ares\\C[0]\\{",
+                "\\>　　\\}\\C[5]อาเรส\\C[0]\\{",
                 "อ้อ แล้วก็ทิ้งอุปกรณ์ไว้ด้วยล่ะ"
               ]
             },
@@ -73607,7 +73611,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]Ares\\C[0]\\{",
+                "\\>　　\\}\\C[5]อาเรส\\C[0]\\{",
                 "เพราะอุปกรณ์พวกนั้น เป็นของที่ปาร์ตี้ผู้กล้า",
                 "ของพวกเราหามาได้ตั้งแต่แรก"
               ]
@@ -73932,7 +73936,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Ares\\C[0]\\{",
+                "\\>　　\\}\\C[5]อาเรส\\C[0]\\{",
                 "นายไม่ใช่พวกเดียวกับเราที่แท้จริง"
               ]
             },
@@ -74655,7 +74659,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Mercenaries\\C[0]\\{",
+                "\\>　　\\}\\C[5]ทหารรับจ้าง\\C[0]\\{",
                 "\"กรี๊ด!?\" \"เฮือก!?\" \"อึ้ก!?\""
               ]
             },
@@ -84758,10 +84762,1485 @@
               ]
             }
           ]
+        },
+        {
+          "type": "jsonOperations",
+          "name": "inlineDialogue",
+          "operations": [
+            {
+              "op": "set",
+              "objectPath": [
+                102,
+                "list",
+                4,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"กำลังตั้งใจเฝ้าร้านอยู่นะ!\\nมีอะไรเหรอ?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                103,
+                "list",
+                4,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"กำลังเฝ้าร้านอยู่ มีอะไรเหรอ\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                104,
+                "list",
+                4,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"อ้าว ฉันกำลังเฝ้าร้านอยู่นะ มีอะไรเหรอ?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                105,
+                "list",
+                4,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"กำลังเฝ้าร้านอยู่ค่ะ\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                111,
+                "list",
+                64,
+                "parameters",
+                0
+              ],
+              "value": "  case \"eng\": $gameVariables._data[7] = \"เรด! วันนี้มีอะไรเหรอ?\\nเราสองคนสนิทกันนะ มีอะไรปรึกษาได้เสมอ\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                111,
+                "list",
+                72,
+                "parameters",
+                0
+              ],
+              "value": "  case \"eng\": $gameVariables._data[7] = \"ขอร้องล่ะ เรด! เด็กคนนี้มีแววเป็นช่างไม้!\\nจะปล่อยให้ความฝันเขาจบที่นี่ไม่ได้!!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                112,
+                "list",
+                65,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"เฮ้ เรด! หวังว่าจะมาซื้อของนะ\\nถ้าไม่ได้มาแกล้ง ก็ซื้ออะไรไปสักอย่างสิ!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                115,
+                "list",
+                45,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"มาได้ดี เรด! มาซื้อของหรือมาซ่อมล่ะ……\\nหรืออยากฟังวีรกรรมของข้าอีกสักเรื่อง?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                117,
+                "list",
+                37,
+                "parameters",
+                0
+              ],
+              "value": "  case \"eng\": $gameVariables._data[7] = \"เฮ้อ ช่วงนี้ลูกค้าลดลงไปมากเลย\\nสงสัยถึงเวลาที่ข้าต้องวางมือแล้วล่ะมั้ง\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                117,
+                "list",
+                44,
+                "parameters",
+                0
+              ],
+              "value": "  case \"eng\": $gameVariables._data[7] = \"ยินดีต้อนรับ! เพราะเจ้า ร้านถึงรุ่งเรือง\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                121,
+                "list",
+                21,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ว่าไง คุณเรด? สนใจสักชามไหม?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                121,
+                "list",
+                60,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ตกปลาไปกินโอเด้งไป หรูหราที่สุดแล้ว!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                122,
+                "list",
+                15,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"อ๊ะ... สวัสดี\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                135,
+                "list",
+                10,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"คุณเรด วันนี้ต้องการให้ช่วยอะไรคะ?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                142,
+                "list",
+                21,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"โอ้ อยากได้โน้ตเพลงสินะ...\\nแต่ของนี่ล้ำค่า จะให้ฟรีก็คงไม่ได้หรอก...\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                151,
+                "list",
+                37,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"เชิญทางนี้!\\nศึกมังกรวิ่งสุดเร้าใจ รับสมัครที่นี่!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                151,
+                "list",
+                88,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ตอนนี้เข้าร่วมการแข่งขันเหล่านี้ได้\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                152,
+                "list",
+                71,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = text + \"\\nต้องการเข้าร่วมประลองในสนามประลองไหมคะ?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                153,
+                "list",
+                39,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ยินดีต้อนรับ!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                154,
+                "list",
+                36,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ยินดีต้อนรับค่ะ!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                155,
+                "list",
+                56,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ยินดีต้อนรับ!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                156,
+                "list",
+                17,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"คราวนี้ขนของดี ๆ มาด้วยล่ะ\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                164,
+                "list",
+                14,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"การแข่งขันยังไม่จบเลยนะ\\nจะขอสละสิทธิ์งั้นเหรอ?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                164,
+                "list",
+                45,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"อยากกลับโซลตันงั้นเหรอ?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                164,
+                "list",
+                73,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ไง เรด\\nจะเข้าร่วมการแข่งตกปลาไหม?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                165,
+                "list",
+                19,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ยินดีต้อนรับ!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                166,
+                "list",
+                48,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ยินดีต้อนรับ!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                167,
+                "list",
+                33,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ยินดีต้อนรับ!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                181,
+                "list",
+                27,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"จะเข้าร่วมการแข่งตกปลาไหม?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                181,
+                "list",
+                123,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ฝึกซ้อมการแข่งตกปลา\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                181,
+                "list",
+                156,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"แตะปุ่มให้ตรงจังหวะ\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                181,
+                "list",
+                267,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"เอาล่ะ ออกไปแข่งตกปลากัน!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                181,
+                "list",
+                404,
+                "parameters",
+                0
+              ],
+              "value": "  case \"eng\": $gameVariables._data[7] = \"จะแลกคะแนนตกปลาไหมล่ะ?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                188,
+                "list",
+                31,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"เจ้าหนูตรงนั้น! ถ้าให้สมุนไพร \\\\V[6] ชิ้น\\nฉันจะให้อะไรดี ๆ แลกกันไหม?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                188,
+                "list",
+                105,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"นี่ สนใจเรื่องสนุก ๆ กับฉันไหม?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                188,
+                "list",
+                258,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"จะให้ฉันได้เห็นฝีมือที่แท้จริงของเธอไหม……?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                189,
+                "list",
+                13,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"เอ๊ะ? ไม่คิดว่าจะได้เจอใครที่นี่เลย\\nฉันมีของมาขายหลายอย่าง สนใจซื้ออะไรไหมล่ะ?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                203,
+                "list",
+                154,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"\\\\>　　\\\\}\\\\C[5]ริท\\\\C[0]\\\\{\\nอยากช่วยอะไรสักอย่างให้เขาจัง\\nถ้ามียารักษาก็คงดี…\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                203,
+                "list",
+                165,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"\\\\>　　\\\\}\\\\C[5]รูตี้\\\\C[0]\\\\{\\nพี่คะ บอกหนูหน่อยว่ายาที่ต้องใช้คืออะไร\\nหนูจะไปเอามาให้เอง\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                203,
+                "list",
+                176,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"\\\\>　　\\\\}\\\\C[5]ยารันดราลา\\\\C[0]\\\\{\\nต้องใช้ยาสินะ\\nเรด ไปเก็บวัตถุดิบด้วยกันไหม?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                203,
+                "list",
+                187,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"\\\\>　　\\\\}\\\\C[5]ทิสเซ\\\\C[0]\\\\{\\nอยากช่วยอะไรสักอย่างจัง……\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                204,
+                "list",
+                257,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"โทษทีนะ……\\nเรด ถ้ามีวัตถุดิบเหลือ แบ่งให้หน่อยได้ไหม?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                208,
+                "list",
+                196,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"อืม น่าจะทำสิ่งที่ซาวน่าอื่นไม่มีนะ……\\nถ้ามีหญ้าหอมก็น่าจะได้\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                215,
+                "list",
+                73,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"แต่จะปล่อยคำขอปราบพวกมันค้างไว้ก็ไม่ได้\\nเลยอยากขอให้คุณเรดรับงานนี้แทน……\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                216,
+                "list",
+                73,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"แต่จะปล่อยคำขอปราบพวกมันค้างไว้ก็ไม่ได้\\nเลยอยากขอให้คุณเรดรับงานนี้แทน……\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                217,
+                "list",
+                121,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"แต่จะปล่อยคำขอปราบพวกมันค้างไว้ก็ไม่ได้\\nเลยอยากขอให้คุณเรดรับงานนี้แทน……\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                218,
+                "list",
+                160,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"มีเรื่องอยากขอให้ช่วยค่ะ……\\nช่วยหาเสื้อคลุมขนสัตว์ให้ได้ไหมคะ?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                219,
+                "list",
+                225,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"(จะทำยังไงดีนะ……)\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                219,
+                "list",
+                342,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"(จะทำยังไงดีนะ……)\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                219,
+                "list",
+                398,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"เอ่อ…… ช่วยผมหน่อยได้ไหมครับ?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                220,
+                "list",
+                153,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"จะกรุณาช่วยผมได้ไหมครับ?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                220,
+                "list",
+                194,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"จะกรุณาช่วยผมได้ไหมครับ?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                221,
+                "list",
+                202,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"เรื่องแบบนี้คงติดประกาศที่กิลด์ไม่ได้\\nช่วยพวกเราหน่อยได้ไหม?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                222,
+                "list",
+                172,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ราวกับถูกภูติตัวน้อยฉกฉวยไปอย่างนั้นเลย!\\n\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                223,
+                "list",
+                53,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"เปล่าครับ ผมเองก็กำลังจะพักอยู่พอดี\\nพวกคุณทั้งสองชอบดื่มกาแฟไหมครับ?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                223,
+                "list",
+                182,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ฮะฮะ…… พูดตรง ๆ ผมก็อยากให้ใครช่วยครับ\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                224,
+                "list",
+                102,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ได้ยินว่าคุณทำอาวุธด้วยสินะ\\n……ว่าอย่างไร จะช่วยพวกเราได้ไหม?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                225,
+                "list",
+                106,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"จะมีใครช่วยหาอุปกรณ์ที่ผมต้องการไหม\\nฉันจะให้รางวัลอย่างงาม……\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                226,
+                "list",
+                218,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"เป็นคนที่ไม่ฟังคนอื่นพูดเลยนะ……\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                226,
+                "list",
+                263,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"จะออกผจญภัยเหรอ！？\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                227,
+                "list",
+                214,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"คุณเรด\\nถ้าเจอไข่ที่ไหน ช่วยซื้อมาให้หน่อยได้ไหม？\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                228,
+                "list",
+                82,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"นี่ คุณเรด เพื่ออนาคตของโอเด้ง\\nช่วยเอาแครอทสด ๆ มาให้หน่อยได้ไหม？\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                229,
+                "list",
+                107,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"อยากลองทำลูกชิ้นปลา\\nโดยใช้ปลาที่ต่างจากทุกทีดูน่ะ\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                230,
+                "list",
+                203,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ขอร้องล่ะ เรด!\\nช่วยหาวัตถุดิบใหม่ ๆ ที่ทำให้ฉันทึ่งที!?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                231,
+                "list",
+                108,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ฉันเป็นกวีหลวง……ถ้ามีโน้ตเพลง\\nฉันจะเล่นให้ฟังเอง……\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                232,
+                "list",
+                300,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ถ้าคุณพอจะหาวัตถุดิบพวกนี้ได้\\nช่วยนำมาให้หน่อย ฉันจะรับซื้อไว้……\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                233,
+                "list",
+                122,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ถ้าช่วยฉันอีกครั้งได้ก็คงดีมากเลย……\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                234,
+                "list",
+                188,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ถ้าทำอันปังสำเร็จแล้ว ให้นำมาให้ฉัน\\nฉันจะเป็นผู้ตัดสินเอง\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                235,
+                "list",
+                103,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"(อุปกรณ์งั้นเหรอ……)\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                237,
+                "list",
+                60,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ช่วยด้วยยยย！！！\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                238,
+                "list",
+                271,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"(เด็กคนนี้อยู่ลำพังจะไม่เป็นไรหรือ……?)\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                238,
+                "list",
+                358,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ฉันจะไปฝึกในดันเจี้ยนให้แข็งแกร่งขึ้น\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                239,
+                "list",
+                205,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"เพราะงั้น ข้าขอให้เจ้าช่วยหน่อย!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                240,
+                "list",
+                99,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"เหมือนคราวก่อน ข้าจะไม่อธิบายซ้ำ!\\nเอาแท่งโลหะเหล็กกล้าแดงมาให้ข้า!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                241,
+                "list",
+                134,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"จริงหรือ!?\\nจะช่วยทำตามคำขอสุดท้ายของตาแก่นี้ไหม……\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                242,
+                "list",
+                125,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"คงไม่มีนักผจญภัยมาถึงที่ห่างไกลเช่นนี้หรอก\\nแล้วจะทำอย่างไรดีล่ะ……\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                243,
+                "list",
+                207,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"……แย่จัง ไม่รู้จะทำอย่างไรดี\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                244,
+                "list",
+                151,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"อืม... ถ้าเอาของมาแทน ฉันจะยอมแลกให้!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                248,
+                "list",
+                236,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"……แย่จัง ไม่รู้จะทำอย่างไรดี\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                250,
+                "list",
+                204,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"นี่ คุณเภสัชกร ฉันจะให้สิ่งนี้ตอบแทน\\nช่วยหาของที่ลูซี่ชอบมาให้หน่อยได้ไหม?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                251,
+                "list",
+                376,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"พอโตขึ้น ฉันจะซื้อยาจากคุณเภสัชกรเยอะ ๆ\\nเพราะงั้น ช่วยฉันหน่อยได้ไหม?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                252,
+                "list",
+                345,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"นี่ เรด! ฉันต้องการเครื่องรางคุ้มครองนะ!\\nเอาวัตถุดิบมาให้หน่อยสิ ฉันมีของตอบแทนให้!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                253,
+                "list",
+                156,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ไม่ใช่เรื่องขำนะ! ตอนนี้ลำบากจริง ๆ!\\nเรด ช่วยทำให้ที่นี่สว่างที!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                254,
+                "list",
+                218,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ไม่ ต้องเป็นน้ำมันดำเท่านั้น\\nมันดีที่สุดสำหรับดูแลอุปกรณ์\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                255,
+                "list",
+                207,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"……นั่นสินะ\\nช่วยนำหญ้าเรืองแสงมาให้ 15 ต้นได้ไหม?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                256,
+                "list",
+                219,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"เมื่อทำขนมปังเอลฟ์เสร็จอย่างงดงามแล้ว\\nโปรดนำมาให้ฉัน ฉันจะขอประเมินดู\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                257,
+                "list",
+                249,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ถ้าเอาไม้โบราณมาให้\\nฉันจะยกเฟอร์นิเจอร์ที่ทำให้สักชิ้น\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                301,
+                "list",
+                1808,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"พี่ชาย จะไปเดตกันไหม?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                302,
+                "list",
+                339,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ริท……\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                302,
+                "list",
+                491,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"เก็บวัตถุดิบก่อนไปกิลด์กันเถอะ!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                311,
+                "list",
+                457,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ว่าไง?\\nยื่นสมุนไพร เลียรองเท้าข้า แล้วจะปล่อยไป\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                319,
+                "list",
+                1340,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ถือเป็นค่าเสียเวลา ข้างในมี 1,000 เพริล\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                362,
+                "list",
+                69,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ฉันไปด้วยได้ไหม?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                363,
+                "list",
+                492,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ที่นี่เราเป็นแค่เรดกับริทธรรมดา ๆ\\nมันรู้สึกแปลกดีนะ ว่าไหม\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                364,
+                "list",
+                236,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"(ดูเหมือนวันนี้เธอคงมีเหตุผลพิเศษ\\nที่อยากดื่มมีดสินะ?)\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                366,
+                "list",
+                400,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ฮิฮิ แหวนเหรอ……\\nได้ของขวัญแบบนี้ ฉันอาจคิดไปไกลนะ\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                382,
+                "list",
+                270,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ฉันพยายามเต็มที่แล้ว\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                383,
+                "list",
+                282,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"(แม้จะรู้จักทิวทัศน์ที่ไม่มีใครเคยเห็น\\n แต่กลับไม่รู้จักภาพที่ใคร ๆ ก็เคยเห็น)\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                386,
+                "list",
+                462,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"อืม……\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                387,
+                "list",
+                780,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ถ้ารูตี้ไม่ไปช่วย เด็กคนนั้นอาจตายแล้ว\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                401,
+                "list",
+                256,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ตอนนี้เธอชงชาได้อร่อยมากแล้วนะ\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                403,
+                "list",
+                636,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ดังนั้นที่มนุษย์บุกเบิกป่าเพื่อความอยู่รอด\\nก็เป็นการแข่งขันเพื่อความอยู่รอดเช่นกัน\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                441,
+                "list",
+                511,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ฉันโชคดีจังที่ได้ใช้เวลากับเรดแบบวันนี้\\nฉันมีความสุขกับชีวิตตอนนี้จริง ๆ!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                442,
+                "list",
+                394,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"เธอมอบให้ฉันด้วยความรู้สึกแบบไหนกันนะ?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                445,
+                "list",
+                326,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"แต่ตอนนี้ฉันช่วยได้แล้ว\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                446,
+                "list",
+                602,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"แต่พระเจ้าบังคับให้ฉันเป็นผู้กล้า\\nแล้วฉันควรอธิษฐานต่อใครกัน?\"; break;"
+            }
+          ]
+        },
+        {
+          "type": "jsonOperations",
+          "name": "extraInlineText",
+          "operations": [
+            {
+              "op": "set",
+              "objectPath": [
+                61,
+                "list",
+                17,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": text = \"ขออภัย!\\nหากเงินแสดงเป็น ”NaN” จะกู้คืนได้ยาก\\nโปรดใส่จำนวนถุงเหรียญทองที่ใช้กู้คืน\\n(ถุงเหรียญทอง 1 ใบ = 1,000 เพริล)\\n(ถุงเหรียญทอง 10 ใบ = 10,000 เพริล)\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                61,
+                "list",
+                56,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[298] = \"ส่ง\\\\I[1124]\" + price + \" เพริลในรูปถุงเหรียญทองไปที่ชั้นวาง\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                190,
+                "list",
+                14,
+                "parameters",
+                0
+              ],
+              "value": "    case \"eng\": $gameVariables._data[7] += \"\\\\FS[25]สวัสดี มีของอะไรอยากให้ขนไหม?\\nฉันจะขนไปส่งถึงร้านในราคา \" + $gameTemp.hauler.price + \" เพริล\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                190,
+                "list",
+                22,
+                "parameters",
+                0
+              ],
+              "value": "    case \"eng\": $gameVariables._data[7] += \"รุ่นพี่เรด! มาเจอกันที่นี่พอดีเลย!\\nมีอะไรให้ผมช่วยไหมครับ?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                234,
+                "list",
+                25,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"ขนมปัง……\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                234,
+                "list",
+                35,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"ขนมปัง ขนมปัง ขนมปัง\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                301,
+                "list",
+                1402,
+                "parameters",
+                0
+              ],
+              "value": "  case \"eng\": $gameVariables._data[12] = \"เรด\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                321,
+                "list",
+                168,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"เหนื่อยหน่อยนะ!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                321,
+                "list",
+                1083,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"ใช่แล้ว!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                321,
+                "list",
+                1090,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"ใช่!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                321,
+                "list",
+                1097,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"ใช่แล้ว!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                321,
+                "list",
+                1104,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"อย่ามาล้อเล่นนะ!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                322,
+                "list",
+                1212,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"ลุยเลย!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                327,
+                "list",
+                890,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"ใช่แล้ว!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                327,
+                "list",
+                897,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"ใช่!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                327,
+                "list",
+                904,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"ใช่แล้ว!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                327,
+                "list",
+                911,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"เฮ! เฮ!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                327,
+                "list",
+                935,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"ใช่แล้ว!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                327,
+                "list",
+                942,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"ใช่!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                327,
+                "list",
+                949,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"ใช่แล้ว!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                327,
+                "list",
+                956,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"เฮ! เฮ!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                327,
+                "list",
+                1061,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"ใช่แล้ว!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                327,
+                "list",
+                1068,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"ใช่!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                327,
+                "list",
+                1075,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"ใช่แล้ว!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                327,
+                "list",
+                1082,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": var text = \"เฮ! เฮ!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                352,
+                "list",
+                186,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": this._hukidasitext = \"ลุยเลย!\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                352,
+                "list",
+                192,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": this._hukidasitext2 = \"ฉันทำเอง\"; break;"
+            }
+          ]
         }
       ],
-      "patchedSha256": "5c3b2893be4e054b0cd632a69db644d252c512c86b636866008bd2b689ad5316",
-      "outputBytes": 10441280
+      "patchedSha256": "d6074aeacc98777c2c16249a1b1adb18b066ee0eb1ca226f1fd7f308a690df01",
+      "outputBytes": 10449624
     },
     {
       "path": "data/Enemies.json",
@@ -86211,10 +87690,30 @@
               ]
             }
           ]
+        },
+        {
+          "type": "jsonOperations",
+          "name": "extraInlineText",
+          "operations": [
+            {
+              "op": "set",
+              "objectPath": [
+                "events",
+                11,
+                "pages",
+                1,
+                "list",
+                89,
+                "parameters",
+                0
+              ],
+              "value": "  case \"eng\": $gameVariables._data[12] = \"เรด\"; break;"
+            }
+          ]
         }
       ],
-      "patchedSha256": "20333c760e989b93d2ec64c1801f90d05bc842ccbad3fb3e0546f6d5ef792db5",
-      "outputBytes": 4806419
+      "patchedSha256": "24852e2baae6661b936a08560ee3d0c3ed64ed795202abf4ee9668a681847ed3",
+      "outputBytes": 4806425
     },
     {
       "path": "data/Map018.json",
@@ -86237,7 +87736,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Red\\C[0]\\{",
+                "\\>　　\\}\\C[5]เรด\\C[0]\\{",
                 "(คงต้องไปซื้อเตียงที่ร้านของ\\C[6]สตอร์ม ธันเดอร์\\C[0])"
               ]
             },
@@ -86289,7 +87788,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Ruti\\C[0]\\{",
+                "\\>　　\\}\\C[5]รูตี้\\C[0]\\{",
                 "พรของผู้กล้าทำให้ฉันนอนไม่หลับ"
               ]
             },
@@ -86306,7 +87805,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]Ruti\\C[0]\\{",
+                "\\>　　\\}\\C[5]รูตี้\\C[0]\\{",
                 "ระหว่างที่พี่หลับ หนูจะนั่งนิ่ง ๆ อยู่ข้าง ๆ",
                 "ไม่ต้องห่วงนะ หนูไม่ปลุกพี่หรอก"
               ]
@@ -86324,7 +87823,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Ruti\\C[0]\\{",
+                "\\>　　\\}\\C[5]รูตี้\\C[0]\\{",
                 "พลังพรผู้กล้าทำให้หนูนอนไม่หลับ"
               ]
             },
@@ -86341,16 +87840,50 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]Ruti\\C[0]\\{",
+                "\\>　　\\}\\C[5]รูตี้\\C[0]\\{",
                 "ระหว่างที่พี่หลับ หนูจะนั่งนิ่ง ๆ อยู่ข้าง ๆ",
                 "ไม่ต้องห่วงนะ หนูไม่ปลุกพี่หรอก"
               ]
             }
           ]
+        },
+        {
+          "type": "jsonOperations",
+          "name": "inlineMapDialogue",
+          "operations": [
+            {
+              "op": "set",
+              "objectPath": [
+                "events",
+                25,
+                "pages",
+                2,
+                "list",
+                16,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ฉันกำลังเฝ้าร้านอยู่ มีอะไรเหรอ?\"; break;"
+            },
+            {
+              "op": "set",
+              "objectPath": [
+                "events",
+                27,
+                "pages",
+                2,
+                "list",
+                16,
+                "parameters",
+                0
+              ],
+              "value": "case \"eng\": $gameVariables._data[7] = \"ฮิฮิ ฉันกำลังตั้งใจเฝ้าร้านอยู่นะ!\\nมีอะไรเหรอ?\"; break;"
+            }
+          ]
         }
       ],
-      "patchedSha256": "63985bf698fd45094046a0ea50d0ea9330a2bcea9754103924450f4938e0b3bf",
-      "outputBytes": 125440
+      "patchedSha256": "87e057735ad9523f99cb8ab506a6e186127c10b8b18f7b184583669321fa0206",
+      "outputBytes": 125649
     },
     {
       "path": "data/Map275.json",
@@ -86373,7 +87906,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Red\\C[0]\\{",
+                "\\>　　\\}\\C[5]เรด\\C[0]\\{",
                 "(คงต้องไปซื้อเตียงที่\\C[6]ร้านสตอร์มธันเดอร์\\C[0]ล่ะนะ)"
               ]
             },
@@ -86390,7 +87923,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]Red\\C[0]\\{",
+                "\\>　　\\}\\C[5]เรด\\C[0]\\{",
                 "(จริงสิ รูตี้จะมาอยู่ที่นี่แล้ว",
                 "แต่ยังไม่มีเตียงเลยนะ...)"
               ]
@@ -86415,8 +87948,8 @@
           ]
         }
       ],
-      "patchedSha256": "d593c3c95676793ff230bdb38f3b6db1632882610be9a576e1d802224d9e27e0",
-      "outputBytes": 160903
+      "patchedSha256": "f7be18af75284b023e3e81657f28fb10bec0d79eeffadeb0ad0a8fada9271f0b",
+      "outputBytes": 160915
     },
     {
       "path": "data/Map276.json",
@@ -86439,7 +87972,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 2,
               "lines": [
-                "\\>　　\\}\\C[5]Red\\C[0]\\{",
+                "\\>　　\\}\\C[5]เรด\\C[0]\\{",
                 "(คงต้องไปซื้อเตียงที่\\C[6]ร้านสตอร์มธันเดอร์\\C[0]ล่ะนะ)"
               ]
             },
@@ -86456,7 +87989,7 @@
               "sourceTag": "\\story\\eng",
               "sourceLineCount": 3,
               "lines": [
-                "\\>　　\\}\\C[5]Red\\C[0]\\{",
+                "\\>　　\\}\\C[5]เรด\\C[0]\\{",
                 "(จริงสิ รูตี้จะมาอยู่ที่นี่แล้ว",
                 "แต่ยังไม่มีเตียงเลยนะ...)"
               ]
@@ -86481,8 +88014,8 @@
           ]
         }
       ],
-      "patchedSha256": "f75f8cfd973a2384a1d31e397f6ba9487cac7c7aaa0d28bdba5f1aa4fd971fae",
-      "outputBytes": 171070
+      "patchedSha256": "7a25d7efc5291266df1d64f1186e299bedeb515b82c41f5312e808d772473501",
+      "outputBytes": 171082
     },
     {
       "path": "data/Map277.json",
